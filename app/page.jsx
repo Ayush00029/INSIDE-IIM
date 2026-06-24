@@ -135,6 +135,33 @@ export default function Home() {
     }
   };
 
+  const getFriendlyError = (errStr) => {
+    if (!errStr) return "";
+    if (errStr.includes("429") || errStr.includes("Quota exceeded") || errStr.includes("Too Many Requests")) {
+      return (
+        <div className="space-y-2 mt-1 text-xs">
+          <p className="font-semibold text-rose-300">Gemini API Rate Limit Exceeded (429)</p>
+          <p className="text-gray-400 leading-relaxed">
+            The free-tier API quota for your Gemini key has been temporarily reached. 
+            Google AI Studio limits requests per minute for new/free keys.
+          </p>
+          <p className="text-emerald-400 font-medium">
+            💡 Auto-retry handlers have been added to the backend! Please wait 10-15 seconds and try clicking "Research" again.
+          </p>
+        </div>
+      );
+    }
+    if (errStr.includes("API key not valid") || errStr.includes("key is invalid")) {
+      return (
+        <div className="space-y-1 mt-1 text-xs">
+          <p className="font-semibold text-rose-300">Invalid Gemini API Key</p>
+          <p className="text-gray-400">Please check your local `.env.local` file and verify your GOOGLE_API_KEY is correct.</p>
+        </div>
+      );
+    }
+    return <p className="text-xs text-rose-300 mt-1 break-words">{errStr}</p>;
+  };
+
   const handlePredefinedClick = (compName) => {
     setCompany(compName);
   };
@@ -280,7 +307,7 @@ export default function Home() {
             <ShieldAlert className="w-5 h-5 text-rose-400 shrink-0 mt-0.5" />
             <div>
               <h4 className="text-sm font-bold text-rose-400">Research Interrupted</h4>
-              <p className="text-xs text-rose-300 mt-1">{error}</p>
+              {getFriendlyError(error)}
             </div>
           </div>
         )}
