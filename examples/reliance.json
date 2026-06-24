@@ -1,0 +1,26 @@
+{
+  "decision": "INVEST",
+  "confidence": 85,
+  "bullPoints": [
+    "Unmatched market leadership in telecom (Jio) and organized retail (Reliance Retail) in India.",
+    "Diversified conglomerate structure hedging risks across cyclical oil/petrochemicals and high-growth consumer businesses.",
+    "Massive scale and capital expenditure capabilities to dominate new energy (solar, hydrogen) sectors.",
+    "Strong balance sheet with healthy debt-to-equity ratios and robust cash flows.",
+    "Strategic global partnerships and investments from top-tier tech/private equity firms (e.g., Google, Meta, KKR)."
+  ],
+  "bearPoints": [
+    "High capital expenditure demands for new energy transition and 5G rollouts limiting short-term free cash flow.",
+    "Oil-to-Chemicals (O2C) refinery margins are subject to global commodity price cycles.",
+    "Regulatory risks in telecom tariff pricing and retail policies in India."
+  ],
+  "riskFactors": [
+    "Fluctuations in global crude oil and petrochemical prices impacting cyclical earnings.",
+    "Execution risk associated with the massive $10B new energy business transition.",
+    "Succession execution and leadership transition across diverse business divisions."
+  ],
+  "sources": [
+    "https://www.ril.com/InvestorRelations/FinancialReporting.aspx",
+    "https://www.moneycontrol.com/india/stockpricequote/refineries/relianceindustries/RI",
+    "https://www.bloomberg.com/quote/RELIANCE:IN"
+  ]
+}

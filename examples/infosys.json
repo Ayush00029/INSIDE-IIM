@@ -1,0 +1,27 @@
+{
+  "decision": "INVEST",
+  "confidence": 75,
+  "bullPoints": [
+    "Strong global presence and brand equity in IT services and digital transformation.",
+    "Robust margins and healthy cash flows, with consistent dividend payouts.",
+    "Accelerating growth in cloud services (Infosys Cobalt) and generative AI capabilities (Infosys Topaz).",
+    "Large contract pipelines and strong relationships with Fortune 500 companies.",
+    "High return on equity (ROE) and return on capital employed (ROCE) compared to industry averages."
+  ],
+  "bearPoints": [
+    "High attrition rates in the IT sector continue to pressure talent acquisition and retention costs.",
+    "Global macroeconomic uncertainties leading to tighter client budgets and slower decision-making.",
+    "Dependence on US and European markets makes it vulnerable to geographic economic slowdowns.",
+    "Intense competition from global peers like Accenture, TCS, and Wipro pressuring pricing power."
+  ],
+  "riskFactors": [
+    "Currency fluctuations (INR vs. USD/EUR) can significantly impact profitability margins.",
+    "Rapid technological changes require continuous upskilling and capital expenditure in AI/Cloud.",
+    "H-1B and other visa regulation changes in the US could impact onsite delivery costs."
+  ],
+  "sources": [
+    "https://www.infosys.com/investors/reports-filings.html",
+    "https://www.moneycontrol.com/india/stockpricequote/computers-software/infosys/INF09",
+    "https://www.reuters.com/markets/companies/INFY.NS"
+  ]
+}
