@@ -6,14 +6,14 @@ This agent uses a state-of-the-art multi-agent pipeline orchestrated with **Lang
 
 ---
 
-## 🚀 Live Demo & Deployment
+## Live Demo & Deployment
 - **GitHub Repository**: [https://github.com/Ayush00029/INSIDE-IIM](https://github.com/Ayush00029/INSIDE-IIM)
 - **Public ZIP Download Link**: [Download Project ZIP Folder](https://github.com/Ayush00029/INSIDE-IIM/archive/refs/heads/main.zip) (Automatically updated with every push)
 - **Vercel Deployment URL**: [https://inside-iim.vercel.app](https://inside-iim.vercel.app)
 
 ---
 
-## 📋 Overview
+## Overview
 The AI Investment Research Agent automates the rigorous research phase an investment analyst goes through when evaluating a stock. 
 1. The user inputs a company name (e.g. "Zomato" or "Infosys").
 2. The agent launches **four parallel research agents** to fetch news sentiment, financial health, competitor standings, and key risk profiles from the web.
@@ -22,7 +22,7 @@ The AI Investment Research Agent automates the rigorous research phase an invest
 
 ---
 
-## ⚙️ Local Setup & Installation
+## Local Setup & Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -56,7 +56,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to interact 
 
 ---
 
-## 🛠️ How It Works (Approach & Architecture)
+## How It Works (Approach & Architecture)
 
 The system is built on a concurrent fan-out / fan-in multi-agent system. Instead of sequential crawling (which is slow), we dispatch all four search agents concurrently.
 
@@ -87,7 +87,7 @@ graph TD
 
 ---
 
-## 🧠 Key Decisions & Trade-Offs
+## Key Decisions & Trade-Offs
 
 ### 1. Parallel Node Execution vs. Sequential execution
 * **Decision:** We migrated the LangGraph edges from sequential to parallel execution. 
@@ -107,7 +107,7 @@ graph TD
 
 ---
 
-## 📊 Example Investment Verdicts
+## Example Investment Verdicts
 
 Three production test runs are saved under the `/examples` directory:
 
@@ -126,7 +126,7 @@ Three production test runs are saved under the `/examples` directory:
 
 ---
 
-## 📈 Future Improvements (With More Time)
+## Future Improvements (With More Time)
 1. **Interactive Chat Mode:** Allow the user to ask follow-up questions about the verdict card (e.g. "Explain why you have low confidence on the financials").
 2. **PDF Parsing Support:** Integrate filing readers to let the agent parse uploaded PDF quarterly reports directly instead of web searches.
 3. **Search Caching:** Implement Redis caching for search queries to save Tavily token consumption for duplicate lookups.
@@ -134,6 +134,6 @@ Three production test runs are saved under the `/examples` directory:
 
 ---
 
-## 🎁 BONUS: Pair Programming Chat Log/Transcript
+## BONUS: Pair Programming Chat Log/Transcript
 For full transparency into the development process, the complete transcript of the developer's chat sessions with the AI Coding Assistant (representing our full thought process, debugging steps, and planning) has been compiled and is publicly accessible:
 - **Chat Transcript Markdown Document**: [chat_session_transcript.md](file:///c:/Users/hi/Desktop/inside-iim/chat_session_transcript.md)
