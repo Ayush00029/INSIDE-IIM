@@ -60,8 +60,12 @@ export default function Home() {
     setVerdict(null);
     resetSteps();
 
-    // Start with the first step running
-    updateStepStatus("newsAgent", "running");
+    // Start with all 4 research agents running in parallel
+    setSteps(prev => prev.map(step => 
+      ["newsAgent", "financialsAgent", "competitorsAgent", "risksAgent"].includes(step.id)
+        ? { ...step, status: "running" }
+        : step
+    ));
 
     try {
       const response = await fetch("/api/research", {
@@ -77,9 +81,6 @@ export default function Home() {
       const reader = response.body.getReader();
       const decoder = new TextDecoder();
       let buffer = "";
-
-      // List of nodes in execution order to handle step transitions
-      const nodeOrder = ["newsAgent", "financialsAgent", "competitorsAgent", "risksAgent", "decisionAgent"];
 
       while (true) {
         const { value, done } = await reader.read();
@@ -102,15 +103,24 @@ export default function Home() {
 
             const completedNode = data.node;
             
-            // Mark the completed node as completed
-            updateStepStatus(completedNode, "completed");
-
-            // Mark the next node in sequence as running
-            const currentIndex = nodeOrder.indexOf(completedNode);
-            if (currentIndex !== -1 && currentIndex < nodeOrder.length - 1) {
-              const nextNode = nodeOrder[currentIndex + 1];
-              updateStepStatus(nextNode, "running");
-            }
+            // Mark the completed node as completed and dynamically check if we should start decisionAgent
+            setSteps(prev => {
+              const updated = prev.map(step => 
+                step.id === completedNode ? { ...step, status: "completed" } : step
+              );
+              
+              // If all 4 research agents are completed, and decisionAgent is not running yet, mark it as running!
+              const researchDone = ["newsAgent", "financialsAgent", "competitorsAgent", "risksAgent"].every(
+                id => updated.find(s => s.id === id)?.status === "completed"
+              );
+              
+              if (researchDone && updated.find(s => s.id === "decisionAgent")?.status === "idle") {
+                return updated.map(step => 
+                  step.id === "decisionAgent" ? { ...step, status: "running" } : step
+                );
+              }
+              return updated;
+            });
 
             // Set final verdict once decision agent finishes
             if (completedNode === "decisionAgent" && data.verdict) {
@@ -146,7 +156,7 @@ export default function Home() {
             Google AI Studio limits requests per minute for new/free keys.
           </p>
           <p className="text-emerald-400 font-medium">
-            💡 Auto-retry handlers have been added to the backend! Please wait 10-15 seconds and try clicking "Research" again.
+            💡 Auto-retry handlers have been added to the backend! Please wait 10-15 seconds and try clicking &quot;Research&quot; again.
           </p>
         </div>
       );
