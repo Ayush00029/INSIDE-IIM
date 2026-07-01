@@ -2,26 +2,39 @@
   "decision": "INVEST",
   "confidence": 75,
   "bullPoints": [
-    "Strong global presence and brand equity in IT services and digital transformation.",
-    "Robust margins and healthy cash flows, with consistent dividend payouts.",
-    "Accelerating growth in cloud services (Infosys Cobalt) and generative AI capabilities (Infosys Topaz).",
-    "Large contract pipelines and strong relationships with Fortune 500 companies.",
-    "High return on equity (ROE) and return on capital employed (ROCE) compared to industry averages."
+    "Strong financial performance in Q1 FY26 with 8.7% YoY net profit growth, 7.5% YoY revenue growth, 20.8% operating margin, and $3.8 billion in large deal wins.",
+    "Continued revenue growth in Q3 FY26 (8.9% YoY) and a robust deal pipeline ($4.8 billion Total Contract Value).",
+    "Raised FY26 revenue guidance from 1-3% to 2-3%, signaling management confidence in future performance.",
+    "Strategic focus on AI initiatives (Topaz AI momentum) and digital transformation services, tempering concerns over sector slowdowns.",
+    "Expansion of strategic collaborations, such as with DNB Bank ASA, to modernize financial crime operations.",
+    "Leading player in the global IT services market, renowned for strong engineering talent, operational excellence, and a vast global delivery network.",
+    "Strong brand recognition, often ranked in the top 5 within the industry.",
+    "Ability to deliver complex solutions at scale and with high efficiency, maintaining a premium market position."
   ],
   "bearPoints": [
-    "High attrition rates in the IT sector continue to pressure talent acquisition and retention costs.",
-    "Global macroeconomic uncertainties leading to tighter client budgets and slower decision-making.",
-    "Dependence on US and European markets makes it vulnerable to geographic economic slowdowns.",
-    "Intense competition from global peers like Accenture, TCS, and Wipro pressuring pricing power."
+    "Recent decline in IT stock prices (up to 3%) for Infosys and its peers, indicating broader sector slowdown concerns.",
+    "Profit decline of 2% YoY in Q3 FY26, with operating margins facing pressure (18.4% in Q3 compared to 20.8% in Q1), partly due to one-off labor code costs.",
+    "Risk of losing approximately $150 million in annual revenue from the Daimler contract due to execution and billing delays.",
+    "Revenue from the Infosys Automotive and Mobility GmbH subsidiary fell 8.5% year-on-year in FY25, indicating challenges in this segment."
   ],
   "riskFactors": [
-    "Currency fluctuations (INR vs. USD/EUR) can significantly impact profitability margins.",
-    "Rapid technological changes require continuous upskilling and capital expenditure in AI/Cloud.",
-    "H-1B and other visa regulation changes in the US could impact onsite delivery costs."
+    "General IT sector slowdowns and intense competitive pressures from other leading IT service providers.",
+    "Client concentration risk and potential revenue loss from large contracts due to execution delays or client reviews (e.g., Daimler).",
+    "Historical internal governance issues and public disputes between founders and management, which could resurface or impact investor confidence.",
+    "Ongoing margin pressure from operational costs, wage inflation, and competitive pricing in the IT services market."
   ],
   "sources": [
-    "https://www.infosys.com/investors/reports-filings.html",
-    "https://www.moneycontrol.com/india/stockpricequote/computers-software/infosys/INF09",
-    "https://www.reuters.com/markets/companies/INFY.NS"
+    "https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms",
+    "https://www.quiverquant.com/news/Infosys+Stock+%28INFY%29+Opinions+on+AI+Initiatives+and+Weekly+Performance",
+    "https://www.infosys.com/newsroom/press-releases.html",
+    "https://www.linkedin.com/posts/analytics-india-magazine_infosys-reported-revenues-of-4941-million-activity-7353740420415172608-KLM1",
+    "https://www.bajajfinserv.in/infosys-quarterly-results",
+    "https://www.linkedin.com/posts/analytics-india-magazine_infosys-reported-a-mixed-performance-in-the-activity-7417179042057080833-sVFk",
+    "https://koalagains.com/stocks/NYSE/INFY/competition",
+    "https://markets.apistemic.com/companies/infosys-y7kbz",
+    "https://csimarket.com/stocks/competitionSEG2.php?code=INFY",
+    "https://www.computerworld.com/article/1659823/5-controversies-infosys-faced-in-recent-times-2.html",
+    "https://www.moneycontrol.com/news/business/infosys-risks-losing-150-million-from-daimler-as-german-automaker-seeks-new-vendor-report-13767443.html",
+    "https://en.wikipedia.org/wiki/Infosys"
   ]
 }

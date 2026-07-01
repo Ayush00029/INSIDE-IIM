@@ -1,42 +1,37 @@
 {
   "decision": "INVEST",
-  "confidence": 80,
+  "confidence": 88,
   "bullPoints": [
-    "Achieved its first full-year profit in FY24, indicating a turn towards profitability.",
-    "Outperformed competitor Swiggy in key financial metrics including revenue growth, net income, and cash flow efficiency.",
-    "Demonstrated strong revenue growth, with a substantial 64% year-on-year increase in Q3 FY25.",
-    "Strengthened market position and diversified business through the strategic acquisition of Blinkit (formerly Grofers), tapping into the fast-growing quick-commerce and grocery delivery sectors.",
-    "Diversified revenue streams from Food Delivery, Hyperpure B2B supplies, and Blinkit Quick Commerce, improving unit economics.",
-    "Low threat of new entrants due to Zomato's strong brand, technological advantages, and economies of scale.",
-    "Potential for significant profit growth by FY30, as suggested by financial analysis."
+    "Achieved its first full-year profit in FY24, marking a significant financial turnaround.",
+    "Reported a positive margin of 1.18% in Q2FY24, a substantial improvement from -13.71% in Q2FY23.",
+    "Outperformed its primary competitor, Swiggy, in key financial metrics including revenue growth, net income, and cash flow efficiency.",
+    "Commands a significant 58% market share in food delivery as of Q1 FY25, extending its lead in the Indian market.",
+    "Strategic acquisitions, such as Blinkit, have expanded its quick commerce reach and diversified business segments.",
+    "Demonstrates strong market position and future growth potential driven by improved operational efficiency."
   ],
   "bearPoints": [
-    "Customer dissatisfaction with peak-hour wait times has been noted in sentiment analysis.",
-    "Reported a net loss of INR 850 crores in FY2023, although it achieved full-year profit in FY24.",
-    "Net profit in Q4 FY25 fell sharply by 78% year-on-year, indicating increasing cost pressures and competitive intensity.",
-    "Profitability is impacted by higher delivery partner costs, increased marketing spend, and expansion of quick-commerce operations.",
-    "Buyers can easily switch to other food delivery apps, posing a challenge to customer loyalty."
+    "Faces intense competition in the food delivery industry from multiple players like Swiggy and UberEats.",
+    "Brand perception has been negatively impacted by recent controversies, leading to a decline in public sentiment.",
+    "Challenges in balancing the interests of restaurants and customers, as highlighted by past disputes over contract clauses and quality assurance."
   ],
   "riskFactors": [
-    "Concerns over data privacy and potential misuse of customer information due to Zomato's decision to share customer data with restaurants.",
-    "Risk of public backlash and regulatory scrutiny from controversial pricing clauses or extra charges, as seen with past incidents like the 'Rs 370 Biryani' controversy.",
-    "Operating in an intensely competitive and fast-growing Indian digital food and quick-commerce market.",
-    "The need to balance rapid top-line expansion with margin discipline to sustain profitability.",
-    "Rising operational and compliance-related expenses could continue to pressure margins.",
-    "Seasonal fluctuations in order volumes can impact financial performance."
+    "Potential for regulatory impacts and evolving market trends to affect business operations and profitability.",
+    "Risk of further brand reputation damage from future controversies or customer/restaurant disputes.",
+    "The need to continuously adapt strategies for managing costs and sustaining growth in a highly dynamic and competitive market.",
+    "Dependence on a two-sided marketplace model, which requires constant effort to maintain satisfaction for both restaurants and customers."
   ],
   "sources": [
+    "https://www.researchgate.net/publication/338111030_Sentiment_analysis_of_customer_reviews_in_zomato_bangalore_restaurants_using_random_forest_classifier",
     "https://towardsai.net/p/l/zomato-sentiment-analysis",
-    "https://www.actowizsolutions.com/extract-end-to-end-zomato-predictive-analysis-success.php",
-    "https://github.com/sonika-07/Zomato-Restaurant-Clustering-And-Sentiment-Analysis",
+    "https://ieeexplore.ieee.org/document/9574641",
+    "https://blinkx.in/news/quarterly-result/zomato-s-q2fy24-financial-performance-review",
     "https://www.scribd.com/document/939727667/Group-3",
     "https://gitarattan.edu.in/wp-content/uploads/2026/05/Article-4.pdf",
-    "https://www.linkedin.com/posts/akshit-goel-spjimr_how-zomato-can-810x-its-profits-in-the-next-activity-7401832577919361024-dhxG",
-    "https://investek.in/swiggy-vs-zomato-a-comprehensive-competitive-analysis-of-indias-food-delivery-giants",
-    "https://www.scribd.com/document/562944366/zomato-porters-model",
-    "https://businessmodelcanvastemplate.com/blogs/competitors/zomato-competitive-landscape",
-    "https://thefederal.com/category/business/zomato-share-customer-data-with-restaurants-sparks-privacy-concerns-217181",
-    "https://www.reuters.com/world/india/indian-food-delivery-giant-zomato-drops-pricing-clause-after-pushback-source-2026-04-23",
-    "https://www.facebook.com/Timesnow/posts/for-the-last-few-days-the-rs-370-biryani-controversy-has-been-all-that-the-inter/1503928585111732"
+    "https://matrixbcg.com/blogs/competitors/zomato",
+    "https://portersfiveforce.com/blogs/competitors/zomato",
+    "https://blog.osum.com/zomato-market-share",
+    "https://yougov.com/articles/25216-how-much-did-recent-controversies-affect-brand-zom",
+    "https://asia.nikkei.com/spotlight/comment/zomato-restaurant-spat-isn-t-food-delivery-apps-biggest-problem",
+    "https://www.facebook.com/indianstartupnews/posts/indian-food-delivery-platform-zomato-has-dropped-a-controversial-contract-clause/1589285659497660"
   ]
 }

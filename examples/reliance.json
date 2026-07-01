@@ -1,26 +1,39 @@
 {
   "decision": "INVEST",
-  "confidence": 85,
+  "confidence": 75,
   "bullPoints": [
-    "Unmatched market leadership in telecom (Jio) and organized retail (Reliance Retail) in India.",
-    "Diversified conglomerate structure hedging risks across cyclical oil/petrochemicals and high-growth consumer businesses.",
-    "Massive scale and capital expenditure capabilities to dominate new energy (solar, hydrogen) sectors.",
-    "Strong balance sheet with healthy debt-to-equity ratios and robust cash flows.",
-    "Strategic global partnerships and investments from top-tier tech/private equity firms (e.g., Google, Meta, KKR)."
+    "Robust profitability with an average Gross Profit Margin of 66.94% and steady growth in Earnings Per Share (EPS), peaking at Rs. 12.45 in 2023-24.",
+    "Consistent revenue expansion, strong profitability, and sustainable financial practices driven by strategic investments, digital transformation, and business diversification.",
+    "India's largest private sector conglomerate with the largest annual turnover and market capitalization in the country.",
+    "Demonstrates superior and consistent financial ratios compared to major competitors in the oil and gas industry.",
+    "Diversified business portfolio spanning oil and gas, telecom services, retail, and petrochemicals.",
+    "Positive market sentiment attributed to easing crude oil prices and improved geopolitical developments."
   ],
   "bearPoints": [
-    "High capital expenditure demands for new energy transition and 5G rollouts limiting short-term free cash flow.",
-    "Oil-to-Chemicals (O2C) refinery margins are subject to global commodity price cycles.",
-    "Regulatory risks in telecom tariff pricing and retail policies in India."
+    "History of controversies including insider trading allegations, gas pricing disputes with the Indian government, and involvement in the 2G spectrum allocation scandal.",
+    "High debt levels raise concerns about the company's financial stability.",
+    "Anticipated weak near-term retail demand due to broader macroeconomic and geopolitical issues.",
+    "Expects continued challenges in oil demand and margins."
   ],
   "riskFactors": [
-    "Fluctuations in global crude oil and petrochemical prices impacting cyclical earnings.",
-    "Execution risk associated with the massive $10B new energy business transition.",
-    "Succession execution and leadership transition across diverse business divisions."
+    "Geopolitical conflicts, particularly in West Asia, leading to extreme market volatility.",
+    "Fluctuations in crude oil prices directly impacting profitability.",
+    "Regulatory and legal risks stemming from past controversies and potential future investigations.",
+    "Macroeconomic headwinds and inflation affecting consumer spending and retail demand.",
+    "The company's high debt levels could pose a risk to financial stability, despite robust profitability."
   ],
   "sources": [
-    "https://www.ril.com/InvestorRelations/FinancialReporting.aspx",
-    "https://www.moneycontrol.com/india/stockpricequote/refineries/relianceindustries/RI",
-    "https://www.bloomberg.com/quote/RELIANCE:IN"
+    "https://economictimes.indiatimes.com/reliance-industries-ltd/stocksupdate/companyid-13215.cms",
+    "https://stocktwits.com/symbol/RELIANCE.NSE/sentiment",
+    "https://in.investing.com/equities/reliance-industries-news",
+    "https://eprajournals.com/pdf/fm/jpanel/upload/2025/January/202501-02-019654",
+    "https://www.macrotrends.net/stocks/charts/RS/reliance/profit-margins",
+    "https://ijrpr.com/uploads/V7ISSUES2/IJRPR59528.pdf",
+    "https://www.slideshare.net/slideshow/financial-analysis-of-ril-competitors/10937892",
+    "https://csimarket.com/stocks/competitionSEG2.php?code=RS",
+    "https://www.globaldata.com/company-profile/reliance-industries-ltd/competitors",
+    "https://www.scribd.com/document/861990324/Controversial-aspects-or-frauds-associated-with-r",
+    "https://x.com/iamrakeshbansal/status/2060174482791403721",
+    "https://www.ril.com/ar2022-23/risk-and-governance.html"
   ]
 }
